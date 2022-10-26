@@ -1,0 +1,17 @@
+#divPadre {
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(255, 174, 0);
+}
+
+#divHijo {
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    background-color: rgb(255, 174, 0);
+}
+
+label {
+    text-align: center;
+}

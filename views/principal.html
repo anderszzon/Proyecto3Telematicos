@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body style="background-color:rgb(216, 237, 100)"> 
+
+    <script src="scripts/Funciones.js"></script>
+    <!--La etiqueta presenta lo que se digite en la entrada-->
+
+    <center>
+      <label>user= admin / password= 1234</label><br><br>
+        </center>
+      <center>
+
+    <label>LOGIN</label><br><br>
+    <label>User </label><input type="text" id="user" value=""><br>
+    <label>Password </label><input type="password" id="password" value=""><br><br>
+    <button onclick="Ingresar();">Log in</button>
+
+      </center>
+
+
+<center>
+     
+    <label id="Salida"></label><br><br>
+    <label>Register users + Permissions</label><br><br>
+    <label>User </label><input type="text" id="user2" value=""><br>
+    <label>Password </label><input type="password" id="password2" value=""><br><br>
+    <label><input type="checkbox" id="cocina"> kitchen</label><br>
+    <label><input type="checkbox" id="baño"> bath</label><br>
+    <label><input type="checkbox" id="sala"> living room</label><br>
+    <label><input type="checkbox" id="jardin"> garden</label><br>
+    <label><input type="checkbox" id="habitacion"> room</label><br>
+    <label><input type="checkbox" id="garage"> garage</label><br><br>
+    <button onclick="Registrar();">Add</button><br><br>
+
+  </center>
+
+<center>    <button onclick="Salir();" id="salir" style="display:none;">Exit</button>
+</center>
+<center>
+    <table>
+
+          <tr>
+            <td ><img width="100" height="100"  src="images/cocina.jpg" id="i_cocina" style="display:none;"></td>
+            <td ><img width="100" height="100" src="images/baño.jpg" id="i_baño" style="display:none;"></td>
+            <td ><img width="100" height="100" src="images/sala.jpg" id="i_sala" style="display:none;"></td>
+          </tr>
+          <tr>
+            <td><img width="100" height="100" src="images/jardin.jpg" id="i_jardin" style="display:none;"></td>
+            <td><img width="100" height="100" src="images/habitacion.jpg" id="i_habitacion" style="display:none;"></td>
+            <td><img width="100" height="100" src="images/garage.jpg" id="i_garage" style="display:none;"></td>
+          </tr>
+
+    </table>
+    
+  </center>
+
+  <center>
+    <label>INGRITH GUEVARA / ANDERSON GORDILLO / LAURA CASTRO</label><br>
+      </center>
+
+      <center>
+        <p class="author">
+          🪐 ANDERSON MAURICIO GORDILLO
+          <a href="https://github.com/anderszzon" target="_blank"
+            >Github= Anderszzon</a
+          >
+        </p>
+          </center>
+
+
+</body>
+
+</html>
